@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #111;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  border-bottom: 1px solid #ddd;
+  height: 60px;
+}
+
+.logo {
+  border: 2px dashed #f472b6;
+  padding: 6px 14px;
+  font-size: 13px;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+nav a {
+  border: 1px dashed #aaa;
+  padding: 5px 14px;
+  color: #333;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.header-acoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-link {
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  border: 1px dashed #aaa;
+  padding: 5px 14px;
+}
+
+.btn-outline {
+  background-color: #fff;
+  color: #111;
+  border: 2px solid #111;
+  padding: 8px 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-solid {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+main {
+  padding: 60px 80px;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+  min-height: calc(100vh - 120px);
+}
+
+.hero-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+  padding-top: 40px;
+}
+
+.titulo-principal {
+  border: 2px dashed #f472b6;
+  padding: 20px 10px;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.descricao {
+  border: 2px dashed #aaa;
+  padding: 16px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.hero-botoes {
+  display: flex;
+  gap: 14px;
+}
+
+.hero-botoes .btn-solid {
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.hero-botoes .btn-outline {
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.hero-imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 40%;
+  padding-top: 0;
+}
+
+.img-slot {
+  border: 2px dashed #aaa;
+  width: 220px;
+}
+
+.img-slot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.separador {
+  width: 30px;
+  height: 16px;
+  background-color: #e91e8c;
+  border-radius: 10px;
+  margin: 6px 0;
+}

@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1117;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  border-bottom: 1px solid #30363d;
+  height: 64px;
+}
+
+.logo {
+  border: 2px dashed #f472b6;
+  padding: 6px 14px;
+  font-size: 13px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+nav a {
+  border: 1px dashed #555;
+  padding: 5px 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.acoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-icone {
+  background-color: transparent;
+  border: 2px dashed #555;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  border: 1px dashed #555;
+  padding: 5px 14px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 18px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 64px);
+  padding: 60px 40px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  max-width: 860px;
+  width: 100%;
+  text-align: center;
+}
+
+.titulo-principal {
+  border: 2px dashed #f472b6;
+  padding: 20px;
+  font-size: 58px;
+  font-weight: bold;
+  line-height: 1.15;
+  width: 100%;
+}
+
+.descricao {
+  border: 2px dashed #555;
+  padding: 16px 30px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #ccc;
+  max-width: 600px;
+}
+
+.hero-formulario {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+}
+
+.campo-email {
+  display: flex;
+  border: 2px dashed #888;
+  overflow: hidden;
+  width: 480px;
+}
+
+.campo-email input {
+  flex: 1;
+  background-color: #1c1f26;
+  border: none;
+  padding: 14px 18px;
+  color: #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn-verde {
+  background-color: #2da44e;
+  color: #fff;
+  border: none;
+  padding: 14px 22px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-escuro {
+  background-color: #21262d;
+  color: #fff;
+  border: 2px solid #555;
+  padding: 14px 22px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+}
